@@ -1,0 +1,29 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/spfx-serve.schema.json",
+  "port": 4321,
+  "https": true,
+  "serveConfigurations": {
+    "default": {
+      "pageUrl": "https://desireinfoweb081.sharepoint.com/sites/Mysite/_layouts/workbench.aspx",
+      "customActions": {
+        "d4c9462d-face-49fe-b0af-b140b7e4c63b": {
+          "location": "ClientSideExtension.ApplicationCustomizer",
+          "properties": {
+            "testMessage": "Test message"
+          }
+        }
+      }
+    },
+    "headerfooter": {
+      "pageUrl": "https://desireinfoweb081.sharepoint.com/sites/Mysite/_layouts/workbench.aspx",
+      "customActions": {
+        "d4c9462d-face-49fe-b0af-b140b7e4c63b": {
+          "location": "ClientSideExtension.ApplicationCustomizer",
+          "properties": {
+            "testMessage": "Test message"
+          }
+        }
+      }
+    }
+  }
+}
